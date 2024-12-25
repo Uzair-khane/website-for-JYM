@@ -1,0 +1,908 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* home  nav bar section */
+
+.main-div{
+   background-image: url(./images/hero-bg.jpg);
+   background-attachment: fixed;
+   width: 100%;
+   height: 650px;
+   margin: -22px 0 0 0;
+   
+   
+}
+
+.main-data{
+ display: flex;
+ justify-content: space-between;
+ position: fixed;
+ top: 0px;
+ left: 0;
+ right: 0;
+ background-color: #d1a7b4;
+
+}
+label{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px 20px;
+}
+.nav-item{
+  list-style: none;
+  margin: 25px 20px;
+}
+li{
+    
+    display: inline;
+    padding: 18px;
+    font-size: 25px;
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+}
+.nav-link:hover{
+    text-decoration: 2px underline red;
+    transition-duration: 1s;
+    transition: 2s;
+}
+
+#checkbox {
+    float: right;
+    color: white;
+    margin-right: 15px;
+    font-size: x-large;
+    line-height: 80px;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+#check:checked ~ ul{
+    left: 0%;
+    
+}
+
+/* information */
+
+.tittle{
+    display: block;
+    justify-items: center;
+    margin-top: 100px;
+
+}
+.gym-tittle1{
+      color: white;
+      text-transform: uppercase;
+      padding-top: 15px;
+      font-size: 35px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.gym-tittle2{
+    color: white;
+    text-transform: uppercase;
+    padding-top: 15px;
+    font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.gym-tittle3{
+    color: white;
+    text-transform: uppercase;
+    padding-top: 15px;
+    font-size: 55px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.information{
+    text-align: center;
+    color:white;
+    font-size: 20px;
+    width: 70%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 25px;
+}
+.home-btn{
+  width: 150px;
+  height: 40px;
+  background-color: #522633;
+  border: none;
+  margin-top: 70px;
+  color: white;
+  font-size: larger;
+  border: 1px solid white;
+}
+.home-btn:hover{
+    background-color: white;
+    color: black;
+}
+
+
+/* item section */
+
+.item-heading{
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+.item-section{
+    background-image: url(./images/us-bg.jpg);
+    width: 100%;
+    height: 450px;
+display: flex;
+justify-content: space-between;
+}
+
+
+.item-num1{
+width: 300px;
+height: 250px;
+
+margin: 100px 20px 0 20px;
+display: grid;
+justify-items: center;
+
+}
+.item-img{
+margin-top: 30px;
+}
+.item-heding{
+    color: white;
+    font-size: x-large;
+    font-size: 20px;
+ 
+}
+.item-paragraph{
+ color: white;
+font-size: 20px;
+text-align: center;
+
+}
+
+
+/* Health section */
+
+.health-section{
+    background-image: url(./images/healthy-bg.jpg);
+    width: 100%;
+    height: 450px;
+    background-attachment:fixed;
+    display: block;
+    justify-items: center;
+}
+.health-heading{
+ padding-top: 70px;
+ color: white;
+}
+.health-para{
+ width: 70%;
+ color: white;
+ font-size: 20px;
+ padding-top: 30px;
+ text-align: center;
+}
+.health-btn{
+    
+        width: 150px;
+        height: 40px;
+        background-color: #522633;
+        border: none;
+        margin-top: 70px;
+        color: white;
+        font-size: larger;
+        border: 1px solid white;
+
+      
+}
+.health-btn:hover{
+    background-color: white;
+    color: black;
+}
+
+
+/* trainers section  */
+
+.trainers-section{
+    background-image: url(./images/trainer-bg.jpg);
+    width: 100%;
+    height: 800px;
+    background-attachment: fixed;
+}
+.gym-trainers{
+    text-align: center;
+    color: white;
+    padding-top: 50PX;
+    font-family: Arial, Helvetica, sans-serif;
+   font-size: 40px;
+}
+.gym-trainers:hover{
+    text-decoration: underline red;
+    transition: 2s;
+  
+}
+.trainer-main{
+ display: flex;
+ justify-content: space-evenly;
+ gap: 10px;
+ margin-left: 20px;
+}
+.traners{
+ width: 370px;
+ height: 460px;
+ margin-top:80px;
+
+}
+.trainer-name{
+    text-align: center;
+    color: white;
+   
+    font-family: Arial, Helvetica, sans-serif;
+   font-size: 30px;
+}
+.trainer-img{
+    width: 270px;
+    height: 360px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.icon{
+    width: 230px;
+    height: 60px;
+    background-color: white;
+    border-radius: 30px;
+    margin: -27px 0 0 20px;
+    position: absolute;
+}
+.insta{
+    margin: 15px 0 0 25px;
+    padding-left: 15px;
+}
+
+
+/* contact section */
+
+
+.contact-main{
+ background-image: url(./images/healthy-bg.jpg);
+ width: 100%;
+ height: 600px;
+ display: flex;
+ 
+}
+.contac-img{
+ width: 90%;
+ height: 600px;
+}
+
+.contact-hed{
+    
+    color: white;
+   
+    font-family: Arial, Helvetica, sans-serif;
+   font-size: 40px;
+}
+.contact-data{
+    margin: 50px 80px;
+}
+.user-data{
+    width: 400px;
+    height: 50px;
+    margin-top: 20px;
+    border: none;
+    font-size: 18px;
+    padding: 10px;
+
+}
+.user-data:focus{
+  outline: none;
+}
+.message{
+    margin-top: 20px;
+    width: 400px;
+    height: 80px;
+    border: none;
+    font-size: 18px;
+    padding: 10px;
+}
+.message:focus{
+    outline: none;
+  }
+  .footer{
+    display: flex;
+  
+    justify-content: space-evenly;
+    width: 100%;
+    height: 90px;
+    background-color: rgb(22, 22, 22);
+  }
+  .fa-solid {
+    color: white;
+    margin-top: 40px;
+    font-size: 35px;
+    line-height: 90px;
+  }
+  .icon-data{
+    color: white;
+    font-size: 25px;
+    padding-left: 40px;
+
+  }
+  .send{
+    
+    width: 150px;
+    height: 40px;
+    background-color: #e71051;
+    border: none;
+    margin-top: 70px;
+    color: white;
+    font-size: larger;
+    border: 1px solid white;
+
+  
+}
+.send:hover{
+background-color: white;
+color: black;
+}
+
+/* trainner section */
+
+.main-datw{
+    background-color: #522633;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Media Queries for Laptops and Large Screens */
+
+@media (min-width: 768px) and (max-width: 1440px) {
+
+    /* General Adjustments */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  
+    /* Navbar Section */
+    .main-data {
+      padding: 0 30px; /* Adjust padding for responsive spacing */
+      background-color: #d1a7b4;
+      z-index: 999;
+    }
+    label {
+      font-size: 28px; /* Scaled font for tablets and laptops */
+      margin: 15px 20px;
+    }
+    li {
+      padding: 16px; /* Adjust padding */
+      font-size: 20px; /* Unified font size */
+    }
+    .nav-link {
+      font-size: 18px; /* Consistent font size */
+    }
+  
+    /* Main Section */
+    .main-div {
+      height: 680px; /* Common height for tablets and laptops */
+      margin-top: -22px;
+    }
+    .gym-tittle1, .gym-tittle2, .gym-tittle3 {
+      font-size: 35px, 45px, 55px; /* Scaled for readability */
+    }
+    .information {
+      width: 70%; /* Balanced width for content */
+      font-size: 18px;
+      text-align: center;
+    }
+    .home-btn {
+      width: 160px; /* Unified button size */
+      height: 42px;
+      font-size: medium;
+    }
+    .tittle{
+        height: 900px;
+    }
+  
+    /* Item Section */
+    .item-section {
+      /* Allow flexibility */
+      justify-content: space-evenly;
+      padding: 20px;
+      height: 400px;
+    }
+    .item-num1 {
+      width: 320px; /* Consistent card size */
+      height: 260px;
+      margin: 10px;
+    }
+    .item-heding {
+      font-size: 20px;
+    }
+    .item-paragraph {
+      font-size: 18px;
+      text-align: center;
+    }
+  
+    /* Health Section */
+    .health-section {
+      height: 550px; /* Scaled height */
+    }
+    .health-heading {
+      font-size: 40px;
+      text-align: center;
+    }
+    .health-para {
+      width: 70%;
+      font-size: 18px;
+      margin: 0 auto; /* Center content */
+    }
+    .health-btn {
+      width: 160px;
+      height: 42px;
+      font-size: medium;
+    }
+  
+    /* Trainers Section */
+    .trainers-section {
+      height: auto;
+      padding: 20px;
+    }
+    .gym-trainers {
+      font-size: 40px; /* Unified font size */
+      text-align: center;
+    }
+    .trainer-main {
+      flex-wrap: wrap; /* Wrap for smaller screens */
+      gap: 20px;
+      justify-content: center;
+    }
+    .traners {
+      width: 350px;
+      height: 450px;
+      margin: 20px;
+    }
+    .trainer-name {
+      font-size: 28px; /* Scaled font */
+    }
+    .trainer-img {
+      width: 280px;
+      height: 360px;
+    }
+  .img-grid{
+   display: flex;
+   justify-content: center;
+  }
+.icon-main{
+    display: flex;
+    justify-content: center;
+}
+    /* Contact Section */
+    .contact-main {
+      height: auto;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .contact-hed {
+      font-size: 38px;
+      margin-bottom: 20px;
+    }
+    .user-data, .message {
+      width: 400px;
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+    .message {
+      height: 80px;
+    }
+    .send {
+      width: 150px;
+      height: 40px;
+      font-size: medium;
+    }
+  
+    /* Footer */
+    .footer {
+      height: auto;
+      padding: 20px;
+      flex-direction: row;
+      align-items: center;
+    }
+    .fa-solid {
+      font-size: 30px;
+    }
+    .icon-data {
+      font-size: 22px;
+      margin-top: 10px;
+    }
+  }
+  
+  /* Media Queries for Mobile and iPad */
+
+  @media (max-width: 800px) {
+
+    /* General Adjustments */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  
+    /* Navbar Section */
+    .main-data {
+      flex-direction: column;
+      align-items: center;
+      padding: 10px 20px;
+      background-color: #d1a7b4;
+      z-index: 999;
+    }
+    label {
+      font-size: 24px;
+      margin: 10px 0;
+    }
+    li {
+      display: block;
+      padding: 12px;
+      font-size: 18px;
+      text-align: center;
+    }
+    .nav-link {
+      font-size: 16px;
+    }
+  
+    /* Main Section */
+    .main-div {
+      height: 600px; /* Adjusted height */
+      margin-top: 0;
+      padding: 10px;
+    }
+    .gym-tittle1, .gym-tittle2, .gym-tittle3 {
+      font-size: 20px, 30px, 40px; /* Scaled for readability */
+      text-align: center;
+    }
+    .information {
+      width: 90%;
+      font-size: 16px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .home-btn {
+      width: 140px;
+      height: 38px;
+      font-size: medium;
+    }
+  
+    /* Item Section */
+    .item-section {
+      flex-direction: column;
+      padding: 20px;
+      height: 800px;
+    }
+    .item-num1 {
+      width: 90%;
+      height: auto;
+      margin: 10px auto;
+      text-align: center;
+    }
+    .item-heding {
+      font-size: 18px;
+    }
+    .item-paragraph {
+      font-size: 16px;
+      text-align: center;
+    }
+  
+    /* Health Section */
+    .health-section {
+      height: auto;
+      padding: 20px;
+    }
+    .health-heading {
+      font-size: 30px;
+      text-align: center;
+    }
+    .health-para {
+      width: 90%;
+      font-size: 16px;
+      margin: 0 auto;
+    }
+    .health-btn {
+      width: 140px;
+      height: 38px;
+      font-size: medium;
+    }
+  
+    /* Trainers Section */
+    .trainers-section {
+      height: auto;
+      padding: 20px;
+    }
+    .gym-trainers {
+      font-size: 30px;
+      text-align: center;
+    }
+    .trainer-main {
+      flex-direction: column;
+      gap: 20px;
+      align-items: center;
+    }
+    .traners {
+      width: 90%;
+      height: auto;
+      margin: 20px auto;
+    }
+    .trainer-name {
+      font-size: 24px;
+    }
+    .trainer-img {
+      width: 280px;
+      height: auto;
+      margin: 10px auto;
+    }
+    .img-grid{
+        display: flex;
+        justify-content: center;
+       }
+       .icon-main {
+       
+         display: flex;
+         justify-content: center;
+     }
+  
+    /* Contact Section */
+    .contact-main {
+      height: auto;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .contact-hed {
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+    .user-data, .message {
+      width: 95%;
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+    .message {
+      height: 60px;
+    }
+    .send {
+      width: 140px;
+      height: 38px;
+      font-size: medium;
+    }
+  
+    /* Footer */
+    .footer {
+      height: auto;
+      padding: 20px;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .fa-solid {
+      font-size: 25px;
+    }
+    .icon-data {
+      font-size: 20px;
+      margin-top: 10px;
+    }
+  }
+/* 
+  Media Query for Smartphones */
+
+  @media (max-width: 480px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    /* General Adjustments */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  
+    /* Navbar Section */
+    .main-data {
+      flex-direction: column;
+      align-items: center;
+      padding: 10px 15px;
+      background-color: #d1a7b4;
+    }
+    label {
+      font-size: 20px;
+      margin: 10px 0;
+    }
+    li {
+      display: block;
+      padding: 10px;
+      font-size: 16px;
+      text-align: center;
+    }
+    .nav-link {
+      font-size: 14px;
+    }
+  
+    /* Main Section */
+    .main-div {
+      height: 790px;
+      margin-top: 0;
+      padding: 10px;
+      background-attachment: scroll;
+      padding-top: 150px;
+    
+    }
+    .gym-tittle1, .gym-tittle2, .gym-tittle3 {
+      font-size: 18px, 22px, 28px; /* Scaled sizes */
+      text-align: center;
+    }
+    .information {
+      width: 90%;
+      font-size: 14px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .home-btn {
+      width: 120px;
+      height: 36px;
+      font-size: small;
+    }
+  
+    /* Item Section */
+    .item-section {
+      flex-direction: column;
+      padding: 10px;
+    }
+    .item-num1 {
+      width: 95%;
+      height: auto;
+      margin: 10px auto;
+      text-align: center;
+    }
+    .item-heding {
+      font-size: 16px;
+    }
+    .item-paragraph {
+      font-size: 14px;
+      text-align: center;
+    }
+  
+    /* Health Section */
+    .health-section {
+      height: auto;
+      padding: 15px;
+    }
+    .health-heading {
+      font-size: 24px;
+      text-align: center;
+    }
+    .health-para {
+      width: 90%;
+      font-size: 14px;
+      margin: 0 auto;
+    }
+    .health-btn {
+      width: 120px;
+      height: 36px;
+      font-size: small;
+    }
+  
+    /* Trainers Section */
+    .trainers-section {
+      height: auto;
+      padding: 15px;
+    }
+    .gym-trainers {
+      font-size: 24px;
+      text-align: center;
+    }
+    .trainer-main {
+      flex-direction: column;
+      gap: 15px;
+      align-items: center;
+    }
+    .traners {
+      width: 95%;
+      height: auto;
+      margin: 15px auto;
+    }
+    .img-grid{
+        display: grid;
+        justify-content: center;
+       }
+       .icon-main {
+       
+         display: flex;
+         justify-content: center;
+     }
+     .icon{
+        width: 190px;
+        height: 40px;
+     }
+     .insta{
+        width: 35px;
+        height: 25px;
+     margin:  8px 10px ;
+     }
+    .trainer-name {
+      font-size: 20px;
+    }
+    .trainer-img {
+      width: 240px;
+      height: auto;
+      margin: 10px auto;
+    }
+  
+    /* Contact Section */
+    .contact-main {
+      height: auto;
+      padding: 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .contact-hed {
+      font-size: 24px;
+      margin-bottom: 15px;
+    }
+    .user-data, .message {
+      width: 95%;
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+    .message {
+      height: 60px;
+    }
+    .send {
+      width: 120px;
+      height: 36px;
+      font-size: small;
+    }
+  
+    /* Footer */
+    .footer {
+      height: auto;
+      padding: 15px;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .fa-solid {
+      font-size: 20px;
+    }
+    .icon-data {
+      font-size: 18px;
+      margin-top: 10px;
+    }
+  }
+  
+  
+
+  
+
+
+
